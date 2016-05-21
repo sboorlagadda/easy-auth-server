@@ -3,7 +3,7 @@ export TERM=${TERM:-dumb}
 
 set -e
 
-VERSION=$(cat apigateway-version/version)
+VERSION=$(cat authserver-version/version)
 
 pushd easy-auth-server
 ./gradlew build -Pversion=$VERSION
