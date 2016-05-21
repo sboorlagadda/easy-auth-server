@@ -15,7 +15,6 @@ apply plugin: 'idea'
 ext {
     name = 'Auth Server'
     description = 'Easy stack`s oauth2 server on spring-cloud-security' 
-    version='0.0.1-SNAPSHOT'
     sourceEncoding='UTF-8'
 }
 
