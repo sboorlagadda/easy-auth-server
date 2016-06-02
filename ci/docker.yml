@@ -9,7 +9,7 @@ image_resource:
 
 inputs:
 - name: easy-auth-server
-- name: aauthserver-jar
+- name: authserver-jar
 
 outputs:
 - name: image
