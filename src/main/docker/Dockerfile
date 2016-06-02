@@ -1,4 +1,4 @@
-FROM java:7
+FROM easystack/baseimage:latest
 VOLUME /tmp
 ADD authserver.jar /app.jar
 RUN bash -c 'touch /app.jar'
